@@ -1,0 +1,53 @@
+
+  img{
+    height: 180px;
+    width: 180px;
+    margin:auto;
+    border-radius:35% 35% 35% 35%;
+    border:2px solid goldenrod;
+    margin:5px;
+
+
+  }
+div{
+    display: flex;
+    justify-content: space-evenly;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    background: #000;
+    margin: 150px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+
+}
+body{
+    background-image: url('01.jpeg');
+    background-repeat: no-repeat;
+background-size: cover;
+}
+.hell {
+    display: flex;
+    justify-content: space-evenly;
+    background: #000;
+    margin: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px solid burlywood;
+}
+img:hover {
+
+    transform: scale(1.0); 
+    border:2px solid whitesmoke;
+    background-color: white;
+    opacity:80%;
+}
